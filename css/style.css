@@ -1,0 +1,170 @@
+*{
+margin:0;
+padding:0;
+}
+.clearfix{
+	clear:both;
+}
+#container {
+background:white;
+margin:0 auto;
+width:100%;
+font-family:Arial;
+}
+header{
+	background:black;
+	width:100%;
+	color:white;
+}
+#left_header {
+	padding: 50px 0;
+	float:left;
+	margin-left:20px;
+	cursor:default;
+}
+#left_header:hover {
+	color:orange;
+	
+}
+#right_header {
+	float:center;
+}
+#right_header ul {
+	float:left;
+}
+#right_header  ul li{
+	float:left;
+	padding:57px 50px;
+	font-size:20px;
+	font-weight:bold;
+	margin: 0 2px;
+	transition:background:1s;
+	list-style-type:none;
+	cursor:pointer;
+}
+#right_header a{
+	color:white;
+	text-decoration:none;
+}
+#right_header  ul li:hover {
+	background:orange;
+}
+main{}
+
+.main_img {
+	width:100%;
+	height:100%;
+}
+.first_section {
+	padding:0 10%;
+}
+
+.first_section h2 {
+	text-align:center;
+	font-size:60px;
+	padding:40px;
+	color:silver;
+	text-shadow: 1px 5px 5px grey;
+}
+
+article {
+	width:20%;
+	margin:20px 5% 20px 0;
+	float:left;
+	color:grey;
+}
+.marginleft{
+	margin_left:5%;
+}
+.marginright{
+	margin_right:0;
+}
+article img {
+	width:100%;
+	/*height:200px;*/
+}
+article img:hover{
+	animation:img_animation 2s;
+}
+.img_block {
+	height:200px;
+	overflow:hidden;
+}
+@keyframes img_animation {
+	from {width:100px;}
+	to{width:150px;}
+}
+.article_title{
+	text-align:center;
+	font-size:30px;
+	margin:10px;
+	font-weight:bold;
+}
+
+.article_description {
+text-align:center;	
+}
+.second_section
+{
+background:url(../images/banner-joinus.jpg);
+background-size:100%;
+width:100%;
+height:100%;
+padding: 50px 50px;
+box-sizing:border-box;
+}
+.second_section h2 {
+	text-align:center;
+	color:white;
+	font-size:60px;
+	margin-bottom:40px;
+}
+.second_section .left_side {
+	width:40%;
+	float:left;
+	
+}
+.second_section .left_side img {
+	width:120%;
+	height:90%;
+	border:5px solid black;
+	border-radius:40px;
+}
+
+.second_section .right_side{
+	width:40%;
+	float:right;
+	color:black;
+	background:white;
+	padding:20px;
+	border:5px solid black;
+	line-height:25px;
+	border-radius:40px;
+}
+footer{
+	width:100%;	
+	background:grey;
+	
+}
+.left_footer{
+	padding:20px;
+	float:left;
+}
+.right_footer {
+	padding:20px;
+	float:right;
+}
+
+.right_footer ul{}
+.right_footer ul li{
+float:left;
+padding:0 25px;
+font-size:18px;
+font-weight:bold;
+list-style-type:none;
+color:white;
+transition:color 2s;
+}
+.right_footer ul li:hover{
+	color:orange;
+}
